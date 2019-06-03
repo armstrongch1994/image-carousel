@@ -31,3 +31,48 @@
     transform: rotate(360deg);
   }
 }
+
+/*Image Carousel*/
+
+img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.image-carousel {
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  color: pink;
+  text-align: center;
+}
+
+.fa {
+  font-size: 24px;
+}
+
+.arrow-wrapper {
+  position: relative;
+  padding: 0 80px;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.controller {
+  position: absolute;
+  color: pink;
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
